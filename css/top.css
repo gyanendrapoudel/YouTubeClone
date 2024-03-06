@@ -177,16 +177,21 @@
     cursor: pointer;
 }
 /* CSS for upload icon tooltip*/
-.upload-icon-container{
+.upload-icon-container,
+.youtube-app-icon-container,
+.mychannel-container{
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+
   
 
 
 }
-.upload-icon-container .upload-icon-text{
+.upload-icon-container .upload-icon-text,
+.youtube-app-icon-container .youtube-apps-icon-text,
+.mychannel-container .mychannel-text{
     position:absolute ;
     font-size: 12px;
     white-space: nowrap;
@@ -200,7 +205,9 @@
     transition: opacity 0.15s;
 
 }
-.upload-icon-container:hover .upload-icon-text{
+.upload-icon-container:hover .upload-icon-text,
+.youtube-app-icon-container:hover .youtube-apps-icon-text,
+.mychannel-container:hover .mychannel-text{
     opacity: 1;
 }
 .mychannel-icon{
