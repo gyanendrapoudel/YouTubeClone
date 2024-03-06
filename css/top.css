@@ -83,6 +83,9 @@
     cursor: pointer;
     margin-left: -1px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -114,7 +117,32 @@
     height: 40px;
     border-radius: 20px;
     cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+/* CSS for tooltip for voice icon starts */
+.mic-icon .tooltip-text{
+    position: absolute;
+    white-space: nowrap;
+    padding: 4px 8px;
+    background-color: gray;
+    color:white;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -20px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+
+}
+.mic-icon:hover .tooltip-text{
+    opacity: 1;
+}
+/* CSS for tooltip for voice icon ends*/
+
+
 /* Center Section Ends */
 
 /* Right Start here */
