@@ -179,7 +179,8 @@
 /* CSS for upload icon tooltip*/
 .upload-icon-container,
 .youtube-app-icon-container,
-.mychannel-container{
+.mychannel-container,
+.notification{
   position: relative;
   display: flex;
   justify-content: center;
@@ -191,7 +192,8 @@
 }
 .upload-icon-container .upload-icon-text,
 .youtube-app-icon-container .youtube-apps-icon-text,
-.mychannel-container .mychannel-text{
+.mychannel-container .mychannel-text,
+.notification .notification-text{
     position:absolute ;
     font-size: 12px;
     white-space: nowrap;
@@ -207,7 +209,8 @@
 }
 .upload-icon-container:hover .upload-icon-text,
 .youtube-app-icon-container:hover .youtube-apps-icon-text,
-.mychannel-container:hover .mychannel-text{
+.mychannel-container:hover .mychannel-text,
+.notification:hover .notification-text{
     opacity: 1;
 }
 .mychannel-icon{
