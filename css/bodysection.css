@@ -20,7 +20,11 @@
     }
 }
 .main-container{
+
+ box-shadow: 0.5px 0.5px 1px   rgb(158, 156, 156);
  padding: 4px;
+ 
+
 }
 .body-img{
    width: 100%;
@@ -28,7 +32,8 @@
 
 /* To display time on image Starts using position properties */
 .body-image-container{
-    background-color: red;
+   
+   
     position: relative;
 }
 .time{
@@ -37,7 +42,6 @@
     position: absolute;
     bottom: 8px;
     right: 4px;
-    font-family: Roboto, Arial;
     font-size: 13px;
     padding: 4px 2px;
     border-radius: 2px;
